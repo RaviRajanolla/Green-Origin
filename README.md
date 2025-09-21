@@ -37,148 +37,318 @@ GreenOrigin allows users to discover, browse, and purchase organic products with
 
 ---
 
----
 
 ## 📸 Project Screenshots
 
 ### 🏠 Home Page
+
 *Showcasing hero banner and featured products*
 
-<img width="1923" height="5068" alt="Home" src="https://github.com/user-attachments/assets/7aac2a36-f7ce-4950-8773-d384b39df58f" />)
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7aac2a36-f7ce-4950-8773-d384b39df58f" 
+       alt="Home Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 ### 🛒 Collections Pages
 
 #### Milk & Dairy
 
 *All milk & dairy products listed with filters*
-<img width="1923" height="1912" alt="Milk   Dairy" src="https://github.com/user-attachments/assets/b2837aa5-b42a-4114-81b9-d7a5b485f578" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b2837aa5-b42a-4114-81b9-d7a5b485f578" 
+       alt="Milk & Dairy" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Fruits
 
 *Fresh fruits collection*
-<img width="1923" height="5672" alt="Fruites" src="https://github.com/user-attachments/assets/558db379-fe6a-421e-8e7f-15209812eca5" />
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/558db379-fe6a-421e-8e7f-15209812eca5" 
+       alt="Fruits" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Grains & Pulses
+
 *Grains and pulses with product details*
-<img width="1923" height="4778" alt="Grains   Pulses" src="https://github.com/user-attachments/assets/ebf7f2a5-4ad1-4232-b689-9f502776c939" />
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ebf7f2a5-4ad1-4232-b689-9f502776c939" 
+       alt="Grains & Pulses" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Vegetables
-*Organic vegetables collection*
-<img width="1923" height="4778" alt="Vegetables" src="https://github.com/user-attachments/assets/5d3102f4-aec2-418e-9820-8b449b533aa8" />
 
+*Organic vegetables collection*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5d3102f4-aec2-418e-9820-8b449b533aa8" 
+       alt="Vegetables" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Beverages
+
 *Juices, teas, and other organic beverages*
 
-<img width="1923" height="2814" alt="Beverages" src="https://github.com/user-attachments/assets/fdf0cef5-b20e-4af0-af7f-9f4735a3fb2d" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fdf0cef5-b20e-4af0-af7f-9f4735a3fb2d" 
+       alt="Beverages" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Natural Sweeteners
-*Honey, jaggery, and other natural sweeteners*
-<img width="1923" height="2779" alt="Natural Sweeteners" src="https://github.com/user-attachments/assets/aa24ed1e-0044-4e3a-a6ec-47ae106a5fab" />
 
+*Honey, jaggery, and other natural sweeteners*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/aa24ed1e-0044-4e3a-a6ec-47ae106a5fab" 
+       alt="Natural Sweeteners" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Breakfast & Cereals
+
 *Organic cereals and breakfast items*
 
-<img width="1923" height="2298" alt="Breakfast   Cereals" src="https://github.com/user-attachments/assets/f094fc4e-d929-4e74-a663-abc3db09c274" />
-
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f094fc4e-d929-4e74-a663-abc3db09c274" 
+       alt="Breakfast & Cereals" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Pickles
 
 *Homemade style pickles collection*
 
-<img width="1923" height="2779" alt="Pickles" src="https://github.com/user-attachments/assets/94b2177f-3e4f-492d-9548-fdf37b6a2160" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/94b2177f-3e4f-492d-9548-fdf37b6a2160" 
+       alt="Pickles" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Sweets & Snacks
+
 *Organic sweets and healthy snacks*
 
-<img width="1923" height="6154" alt="Sweets   Snacks" src="https://github.com/user-attachments/assets/7ad84d02-fe25-49b3-a5cd-77ce77e3b3c5" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7ad84d02-fe25-49b3-a5cd-77ce77e3b3c5" 
+       alt="Sweets & Snacks" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Natural Kitchen Oils
+
 *Cooking oils made from natural sources*
 
-<img width="1923" height="3262" alt="Natural Kitchen Oils" src="https://github.com/user-attachments/assets/42e4f047-2527-4ae8-83f2-2f683fce87f8" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/42e4f047-2527-4ae8-83f2-2f683fce87f8" 
+       alt="Natural Kitchen Oils" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Dry Fruits
+
 *Almonds, walnuts, cashews, and more*
 
-<img width="1923" height="4226" alt="Dry Fruits" src="https://github.com/user-attachments/assets/e4c46a49-69e1-41dd-b5f2-6ebbddbb1476" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e4c46a49-69e1-41dd-b5f2-6ebbddbb1476" 
+       alt="Dry Fruits" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Leafy Greens
-![Leafy Greens](./screenshots/leafy-greens.png)
-*Fresh leafy vegetables*
-<img width="1923" height="2779" alt="Leafy greens" src="https://github.com/user-attachments/assets/21e8c4cf-6ab3-4ef5-a1c9-c02402d3d140" />
 
+*Fresh leafy vegetables*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/21e8c4cf-6ab3-4ef5-a1c9-c02402d3d140" 
+       alt="Leafy Greens" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Organic Eggs
-![Organic Eggs](./screenshots/organic-eggs.png)
+
 *Organic eggs from free-range farms*
-<img width="1923" height="1912" alt="Organic Eggs" src="https://github.com/user-attachments/assets/78b4ac55-b1e0-47e4-8a45-d80375dd7690" />
 
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/78b4ac55-b1e0-47e4-8a45-d80375dd7690" 
+       alt="Organic Eggs" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 #### Spices & Masalas
-![Spices & Masalas](./screenshots/spices-masalas.png)
+
 *Natural and organic spices*
 
-<img width="1923" height="4743" alt="Spices   Masalas" src="https://github.com/user-attachments/assets/4e2412cb-0555-4b4e-8268-d7d7023e1b0e" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4e2412cb-0555-4b4e-8268-d7d7023e1b0e" 
+       alt="Spices & Masalas" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 ### 🛍️ Product Detail Page
-![Product Detail](./screenshots/product-detail.png)
+
 *Detailed product information and add-to-cart option*
-<img width="1923" height="1640" alt="Product Details " src="https://github.com/user-attachments/assets/7564865a-9dff-4ce5-918b-62095c3168c5" />
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7564865a-9dff-4ce5-918b-62095c3168c5" 
+       alt="Product Detail Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
 
 
 
-### 🛒 Shopping Cart
-![Cart](./screenshots/cart.png)
-*Manage selected items before checkout*
 
-### 💳 Checkout Page
-![Checkout](./screenshots/checkout.png)
-*Shipping and payment process*
 
-### ✅ Order Confirmation
-![Order Confirmation](./screenshots/order-confirmation.png)
-*Order success page showing confirmation details*
 
-### 📖 About Page
-![About](./screenshots/about.png)
-*Information about GreenOrigin and its mission*
-
-### ❓ FAQs Page
-![FAQs](./screenshots/faqs.png)
-*Frequently asked questions*
-
-### 📞 Contact Page
-![Contact](./screenshots/contact.png)
-*Contact form and customer support details*
-
-### 🌿 Our Story Page
-![Our Story](./screenshots/our-story.png)
-*Story of the brand, sustainability, and community*
-
-### 🔑 Sign In Page
-![Sign In](./screenshots/signin.png)
-*User login page*
-
-### 📝 Sign Up Page
-![Sign Up](./screenshots/signup.png)
-*User registration page*
+Perfect! Here's the **complete Project Screenshots section** for all remaining pages, formatted so every image is **centered, full-width, and visually neat** in GitHub preview:
 
 ---
+
+## 📸 Project Screenshots (Continued)
+
+### 📖 About Page
+
+*Information about GreenOrigin and its mission*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f8c7bfa4-6f2b-47bb-8d03-1f769ee5cfcb" 
+       alt="About Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### ❓ FAQs Page
+
+*Frequently asked questions*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/482cc57c-71d6-4734-9008-12691c010337" 
+       alt="FAQs Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 📞 Contact Page
+
+*Contact form and customer support details*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ab06961f-363a-47f4-9038-f16d5d967fa2" 
+       alt="Contact Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 🌿 Our Story Page
+
+*Story of the brand, sustainability, and community*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/87ab70b9-0b8a-4304-8453-17277b83df86" 
+       alt="Our Story Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### Join Our Organic Community
+
+*Connect with us and be part of a sustainable, healthy lifestyle*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ce12fbae-af65-4488-bf49-957d33738e44" 
+       alt="Join Our Organic Community" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### ✅ Success / Order Confirmation
+
+*Form or order confirmation page showing success message*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/005c87f1-a13e-437d-8267-2e76bd2b06ca" 
+       alt="Success / Order Confirmation" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 🛒 Shopping Cart
+
+*Manage selected items before checkout*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/735fb116-8c91-4605-850a-3d7512f2114e" 
+       alt="Shopping Cart Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 💳 Checkout Page
+
+*Shipping and payment process*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/2b4289b7-5599-4952-925a-b771cb9b5eac" 
+       alt="Checkout Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### ✅ Order Confirmation
+
+*Order success page showing confirmation details*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e7067310-81a5-4fa4-bf48-38d4cc4c30a4" 
+       alt="Order Confirmation" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 🔑 Sign In Page
+
+*User login page*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1ff5efc5-51d1-4d81-982a-574799461e9d" 
+       alt="Sign In Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 📝 Sign Up Page
+
+*User registration page*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b3156c51-613a-472b-bc39-40d5df287a86" 
+       alt="Sign Up Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 🔒 Admin Login
+
+*Admin login page for private access*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/5f395ae7-c4e7-4f9e-a894-b9c1f5fc0238" 
+       alt="Admin Login Page" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+### 🖥️ Admin Dashboard
+
+*Admin can manage all platform data*
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/3dc45a03-f901-4ed8-8305-f00e857a414f" 
+       alt="Admin Dashboard" 
+       style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
+</p>
+
+
+
+---
+
+
+
 
 
 ## 🔗 Page Flow Diagram (GitHub Compatible)
