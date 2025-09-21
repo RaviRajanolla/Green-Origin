@@ -956,7 +956,6 @@ mvn spring-boot:run
     <img alt="Built by Ravi Rajanolla" src="https://img.shields.io/badge/Built%20by-Ravi%20Rajanolla-e63946?style=flat-square">
   </a>
   <img alt="GreenOrigin" src="https://img.shields.io/badge/Project-GreenOrigin-2a9d8f?style=flat-square">
-  <img alt="Modes" src="https://img.shields.io/badge/Modes-Light%20🌞%20|%20Dark%20🌙-457b9d?style=flat-square">
   <img alt="Sustainability" src="https://img.shields.io/badge/Sustainable%20Living-🌿-6b8e23?style=flat-square">
 
   <p style="margin-top:10px; font-size:14px; color:#333;">
