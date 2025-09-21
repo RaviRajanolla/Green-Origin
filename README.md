@@ -1,5 +1,5 @@
 
-# GreenOrigin - Nourishing Lives, One Organic Choice 🍃🤝
+# 🍃🤝 GreenOrigin - Nourishing Lives, One Organic Choice 
 
 
 GreenOrigin is **more than just an online store**-it’s a **community for mindful living and conscious choices**. Every product tells a story of **care, sustainability, and support for farmers** who dedicate their lives to growing food naturally.
