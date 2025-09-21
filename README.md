@@ -203,16 +203,6 @@ GreenOrigin allows users to discover, browse, and purchase organic products with
 </p>
 
 
-
-
-
-
-Perfect! Here's the **complete Project Screenshots section** for all remaining pages, formatted so every image is **centered, full-width, and visually neat** in GitHub preview:
-
----
-
-## 📸 Project Screenshots (Continued)
-
 ### 📖 About Page
 
 *Information about GreenOrigin and its mission*
@@ -342,12 +332,7 @@ Perfect! Here's the **complete Project Screenshots section** for all remaining p
        alt="Admin Dashboard" 
        style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
 </p>
-
-
-
 ---
-
-
 
 
 
@@ -959,9 +944,28 @@ mvn spring-boot:run
 ---
 
 
-Built with ❤️ to promote **healthy living and sustainable farming** 🌿
+<p align="center">
+  <b>🌱 GreenOrigin - Nourishing Lives, One Organic Choice at a Time 🍃🤝</b>
+</p>
+
+<div align="center" style="background: linear-gradient(135deg, #a8e6cf, #dcedc1); padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,0,0,0.2);">
+
+  <a href="https://github.com/your-username" target="_blank">
+    <img alt="Built by Ravi Rajanolla" src="https://img.shields.io/badge/Built%20by-Ravi%20Rajanolla-e63946?style=flat-square">
+  </a>
+  <img alt="GreenOrigin" src="https://img.shields.io/badge/Project-GreenOrigin-2a9d8f?style=flat-square">
+  <img alt="Modes" src="https://img.shields.io/badge/Modes-Light%20🌞%20|%20Dark%20🌙-457b9d?style=flat-square">
+  <img alt="Sustainability" src="https://img.shields.io/badge/Sustainable%20Living-🌿-6b8e23?style=flat-square">
+
+  <p style="margin-top:10px; font-size:14px; color:#333;">
+    Built with ❤️ to promote <b>healthy living</b> and support <b>organic farming</b>.  
+    Connect, explore, and shop consciously 🌏
+  </p>
+</div>
 
 ---
+
+
 
 
 
