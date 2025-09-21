@@ -1,5 +1,7 @@
 
-# 🍃🤝 GreenOrigin - Nourishing Lives, One Organic Choice 
+<h1 align="center" style="font-size:2.5em; font-weight:bold; color:#2a9d8f;">
+  🍃🤝 GreenOrigin - Nourishing Lives, One Organic Choice at a Time
+</h1>
 
 
 GreenOrigin is **more than just an online store**-it’s a **community for mindful living and conscious choices**. Every product tells a story of **care, sustainability, and support for farmers** who dedicate their lives to growing food naturally.
