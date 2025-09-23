@@ -338,7 +338,7 @@ GreenOrigin allows users to discover, browse, and purchase organic products with
 
 
 
-## 🔗 Page Flow Diagram (GitHub Compatible)
+## 🔗 Page Flow Diagram 
 
 ```mermaid
 flowchart TD
@@ -373,12 +373,10 @@ flowchart TD
 
 ---
 
-✅ This way, your README will have:
 
-1. **All screenshots with proper captions**.
-2. **A professional page flow diagram** showing navigation clearly.
+111
 
-Do you want me to now **integrate this into your full README draft** (with intro, features, tech stack, diagrams, screenshots, etc.) so you can directly use it?
+
 
 
 ## 📦 Pages & Flow
@@ -394,6 +392,7 @@ Home → Collections → Product Detail → Cart → Checkout → Order Success
 ```
 Home → About / FAQ / Contact → Login/Register
 ```
+
 
 ### Page Breakdown
 
@@ -557,14 +556,26 @@ flowchart TD
     B --> H[About / FAQ / Contact]
     B --> I[Login/Register]
     B --> J[Testimonial Carousel / Featured Products]
+
+    %% Decent, pastel-style colors
+    style A fill:#FDE2E2,stroke:#333,stroke-width:1px
+    style B fill:#FAD9C1,stroke:#333,stroke-width:1px
+    style C fill:#FFF5BA,stroke:#333,stroke-width:1px
+    style D fill:#C3FBD8,stroke:#333,stroke-width:1px
+    style E fill:#A3C4F3,stroke:#333,stroke-width:1px
+    style F fill:#D9C6F3,stroke:#333,stroke-width:1px
+    style G fill:#FFC8DD,stroke:#333,stroke-width:1px
+    style H fill:#E2F0CB,stroke:#333,stroke-width:1px
+    style I fill:#FFDAC1,stroke:#333,stroke-width:1px
+    style J fill:#B5EAEA,stroke:#333,stroke-width:1px
 ```
 
 ---
 
-## 🔗 Component Connection Diagram (GitHub Compatible)
+
+### 🔗 Component Connection Diagram 
 
 ```mermaid
-
 flowchart TD
     App[App.tsx] --> Header["Header.tsx"]
     App --> Footer["Footer.tsx"]
@@ -603,13 +614,37 @@ flowchart TD
     CartSummary -->|Uses CartContext| CartContext
     CheckoutForm -->|Uses CartContext| CartContext
 
-
+    %% Soft pastel colors
+    style App fill:#FDE2E2,stroke:#333,stroke-width:1px
+    style Header fill:#FAD9C1,stroke:#333,stroke-width:1px
+    style Footer fill:#FFF5BA,stroke:#333,stroke-width:1px
+    style Pages fill:#C3FBD8,stroke:#333,stroke-width:1px
+    style Home fill:#A3C4F3,stroke:#333,stroke-width:1px
+    style Collections fill:#D9C6F3,stroke:#333,stroke-width:1px
+    style ProductDetail fill:#FFC8DD,stroke:#333,stroke-width:1px
+    style Cart fill:#E2F0CB,stroke:#333,stroke-width:1px
+    style Checkout fill:#FFDAC1,stroke:#333,stroke-width:1px
+    style Login fill:#B5EAEA,stroke:#333,stroke-width:1px
+    style About fill:#FDE2E2,stroke:#333,stroke-width:1px
+    style FAQ fill:#FAD9C1,stroke:#333,stroke-width:1px
+    style Contact fill:#FFF5BA,stroke:#333,stroke-width:1px
+    style Hero fill:#C3FBD8,stroke:#333,stroke-width:1px
+    style Featured fill:#A3C4F3,stroke:#333,stroke-width:1px
+    style Testimonial fill:#D9C6F3,stroke:#333,stroke-width:1px
+    style Filters fill:#FFC8DD,stroke:#333,stroke-width:1px
+    style ProductList fill:#E2F0CB,stroke:#333,stroke-width:1px
+    style ProductCard fill:#FFDAC1,stroke:#333,stroke-width:1px
+    style Badge fill:#B5EAEA,stroke:#333,stroke-width:1px
+    style AddCart fill:#FDE2E2,stroke:#333,stroke-width:1px
+    style CartItem fill:#FAD9C1,stroke:#333,stroke-width:1px
+    style CartSummary fill:#FFF5BA,stroke:#333,stroke-width:1px
+    style CheckoutForm fill:#C3FBD8,stroke:#333,stroke-width:1px
+    style CartContext fill:#A3C4F3,stroke:#333,stroke-width:1px
 ```
-
 
 ---
 
-## 📊 Data Flow Diagram
+### 📊 Data Flow Diagram 
 
 ```mermaid
 flowchart TD
@@ -618,9 +653,18 @@ flowchart TD
     MockData --> CartItems["CartPage / CartSummary"]
     MockData --> Orders["CheckoutPage"]
     MockData --> Testimonials["TestimonialCarousel"]
+
+    %% Pastel colors
+    style MockData fill:#FDE2E2,stroke:#333,stroke-width:1px
+    style Products fill:#A3C4F3,stroke:#333,stroke-width:1px
+    style Categories fill:#FFD9C0,stroke:#333,stroke-width:1px
+    style CartItems fill:#C3FBD8,stroke:#333,stroke-width:1px
+    style Orders fill:#FFC8DD,stroke:#333,stroke-width:1px
+    style Testimonials fill:#D9C6F3,stroke:#333,stroke-width:1px
 ```
 
 ---
+
 
 ## 🔗 API Endpoints (Future Integration)
 
@@ -681,7 +725,6 @@ flowchart TD
 
 ---
 
----
 
 #  GreenOrigin Backend - Spring Boot API
 
@@ -764,9 +807,34 @@ flowchart TD
     OrderEntity --> UserEntity
 
     ProductEntity --> CategoryEntity
-```
 
----
+    %% Pastel colors
+    style AppBackend fill:#FDE2E2,stroke:#333,stroke-width:1px
+    style AuthController fill:#FAD9C1,stroke:#333,stroke-width:1px
+    style AuthService fill:#FFF5BA,stroke:#333,stroke-width:1px
+    style UserRepository fill:#C3FBD8,stroke:#333,stroke-width:1px
+    style UserEntity fill:#A3C4F3,stroke:#333,stroke-width:1px
+
+    style ProductController fill:#D9C6F3,stroke:#333,stroke-width:1px
+    style ProductService fill:#FFC8DD,stroke:#333,stroke-width:1px
+    style ProductRepository fill:#E2F0CB,stroke:#333,stroke-width:1px
+    style ProductEntity fill:#FFDAC1,stroke:#333,stroke-width:1px
+
+    style CategoryController fill:#B5EAEA,stroke:#333,stroke-width:1px
+    style CategoryService fill:#FDE2E2,stroke:#333,stroke-width:1px
+    style CategoryRepository fill:#FAD9C1,stroke:#333,stroke-width:1px
+    style CategoryEntity fill:#FFF5BA,stroke:#333,stroke-width:1px
+
+    style CartController fill:#C3FBD8,stroke:#333,stroke-width:1px
+    style CartService fill:#A3C4F3,stroke:#333,stroke-width:1px
+    style CartRepository fill:#D9C6F3,stroke:#333,stroke-width:1px
+    style CartEntity fill:#FFC8DD,stroke:#333,stroke-width:1px
+
+    style OrderController fill:#E2F0CB,stroke:#333,stroke-width:1px
+    style OrderService fill:#FFDAC1,stroke:#333,stroke-width:1px
+    style OrderRepository fill:#B5EAEA,stroke:#333,stroke-width:1px
+    style OrderEntity fill:#FDE2E2,stroke:#333,stroke-width:1px
+```
 
 ## 📦 Project Structure
 
