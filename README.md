@@ -334,7 +334,8 @@ GreenOrigin allows users to discover, browse, and purchase organic products with
        alt="Admin Dashboard" 
        style="max-width:100%; height:auto; border-radius:10px; box-shadow:0 4px 10px rgba(0,0,0,0.2);" />
 </p>
----
+
+-----
 
 
 
@@ -342,41 +343,76 @@ GreenOrigin allows users to discover, browse, and purchase organic products with
 
 ```mermaid
 flowchart TD
-    Home[Home Page] --> Collections[Collections]
-    Collections --> Milk[Milk & Dairy]
-    Collections --> Fruits[Fruits]
-    Collections --> Grains[Grains & Pulses]
-    Collections --> Vegetables[Vegetables]
-    Collections --> Beverages[Beverages]
-    Collections --> Sweeteners[Natural Sweeteners]
-    Collections --> Breakfast[Breakfast & Cereals]
-    Collections --> Pickles[Pickles]
-    Collections --> Snacks[Sweets & Snacks]
-    Collections --> Oils[Natural Kitchen Oils]
-    Collections --> DryFruits[Dry Fruits]
-    Collections --> Leafy[Leafy Greens]
-    Collections --> Eggs[Organic Eggs]
-    Collections --> Spices[Spices & Masalas]
+    %% ================================
+    %% STYLES
+    %% ================================
+    classDef home fill:#6CC644,stroke:#2C662D,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef collection fill:#1E90FF,stroke:#0A3D91,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef category fill:#FFD700,stroke:#C5A200,stroke-width:1.5px,color:#000;
+    classDef subpage fill:#FF7F50,stroke:#B34722,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef auth fill:#9370DB,stroke:#5D3E9E,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef process fill:#20B2AA,stroke:#116B68,stroke-width:2px,color:#fff,font-weight:bold;
+    classDef group fill:#F0F0F0,stroke:#999,stroke-dasharray: 5 5;
 
-    Collections --> ProductDetail[Product Detail]
-    ProductDetail --> Cart[Shopping Cart]
-    Cart --> Checkout[Checkout]
-    Checkout --> Confirmation[Order Confirmation]
+    %% ================================
+    %% HOME & MAIN
+    %% ================================
+    Home[🏠 Home Page]:::home --> Collections[🛍️ Collections]:::collection
+    Home --> About[ℹ️ About Page]:::subpage
+    Home --> FAQs[❓ FAQs]:::subpage
+    Home --> Contact[📞 Contact Page]:::subpage
+    Home --> Story[📖 Our Story]:::subpage
+    Home --> SignIn[🔑 Sign In]:::auth
+    SignIn --> SignUp[📝 Sign Up]:::auth
 
-    Home --> About[About Page]
-    Home --> FAQs[FAQs]
-    Home --> Contact[Contact Page]
-    Home --> Story[Our Story]
-    Home --> SignIn[Sign In]
-    SignIn --> SignUp[Sign Up]
+    %% ================================
+    %% COLLECTIONS & GROUPED CATEGORIES
+    %% ================================
+    subgraph Fresh[🥗 Fresh Produce]
+        Fruits[🍎 Fruits]:::category
+        Vegetables[🥬 Vegetables]:::category
+        Leafy[🌿 Leafy Greens]:::category
+    end
+    class Fresh group
+
+    subgraph Staples[🌾 Staples & Essentials]
+        Grains[🌾 Grains & Pulses]:::category
+        Oils[🛢️ Natural Kitchen Oils]:::category
+        Spices[🌶️ Spices & Masalas]:::category
+    end
+    class Staples group
+
+    subgraph DairyEggs[🥛 Dairy & Proteins]
+        Milk[🥛 Milk & Dairy]:::category
+        Eggs[🥚 Organic Eggs]:::category
+    end
+    class DairyEggs group
+
+    subgraph Packaged[🍬 Packaged Goods]
+        Breakfast[🥣 Breakfast & Cereals]:::category
+        Snacks[🍬 Sweets & Snacks]:::category
+        Pickles[🥒 Pickles]:::category
+        DryFruits[🥜 Dry Fruits]:::category
+        Sweeteners[🍯 Natural Sweeteners]:::category
+        Beverages[🥤 Beverages]:::category
+    end
+    class Packaged group
+
+    Collections --> Fresh
+    Collections --> Staples
+    Collections --> DairyEggs
+    Collections --> Packaged
+
+    %% ================================
+    %% SHOPPING FLOW
+    %% ================================
+    Collections --> ProductDetail[📦 Product Detail]:::process
+    ProductDetail --> Cart[🛒 Shopping Cart]:::process
+    Cart --> Checkout[💳 Checkout]:::process
+    Checkout --> Confirmation[✅ Order Confirmation]:::process
 ```
 
 ---
-
-
-111
-
-
 
 
 ## 📦 Pages & Flow
@@ -445,7 +481,7 @@ greenorigin/
 │   ├── pages/             # All page components
 │   ├── context/           # AuthContext, CartContext
 │   ├── data/              # Mock data fallback
-│   ├── types/             # TypeScript definitions
+│   ├── types/            
 │   ├── App.tsx
 │   ├── main.tsx
 │   └── index.css
